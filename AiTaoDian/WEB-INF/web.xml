@@ -170,6 +170,27 @@
     <servlet-name>SelectStudentUser</servlet-name>
     <servlet-class>servlet.SelectStudentUser</servlet-class>
   </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteReacll</servlet-name>
+    <servlet-class>servlet.DeleteReacll</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyHomeServlet</servlet-name>
+    <servlet-class>servlet.MyHomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMyHome</servlet-name>
+    <servlet-class>servlet.DeleteMyHome</servlet-class>
+  </servlet>
+
+
+
 
 
 
@@ -284,5 +305,17 @@
   <servlet-mapping>
     <servlet-name>SelectStudentUser</servlet-name>
     <url-pattern>/servlet/SelectStudentUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteReacll</servlet-name>
+    <url-pattern>/servlet/DeleteReacll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyHomeServlet</servlet-name>
+    <url-pattern>/servlet/MyHomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMyHome</servlet-name>
+    <url-pattern>/servlet/DeleteMyHome</url-pattern>
   </servlet-mapping>
 </web-app>
