@@ -22,7 +22,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
   <% request.setCharacterEncoding("utf-8"); %>
-  <h1>-----zai liu gai --------</h1>
+  <h1>-----zai --------</h1>
   
   </body>
 </html>
